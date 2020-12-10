@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPFMessangerClient.WindowPath"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFMessangerClient"
+        mc:Ignorable="d"
+        Title="WindowPath" Height="450" Width="800">
+    <Grid>
+        <Button Content="Выбрать путь" HorizontalAlignment="Left" Margin="144,319,0,0" VerticalAlignment="Top" Height="44" Width="155" Click="Button_Click"/>
+        <TextBlock x:Name="pathtextblock" HorizontalAlignment="Center" Margin="0,82,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="512"/>
+        <Button Content="Начать загрузку" HorizontalAlignment="Left" Margin="548,319,0,0" VerticalAlignment="Top" Height="44" Width="155" Click="Button_Click_1"/>
+        <Label Content="Выберите путь. Можно оставить путь по умолчанию и ничего не жмякать. Но можно свой путь выбрать, да." HorizontalAlignment="Left" Margin="144,125,0,0" VerticalAlignment="Top" Width="617"/>
+
+    </Grid>
+</Window>

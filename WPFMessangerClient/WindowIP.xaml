@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFMessangerClient.WindowIP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFMessangerClient"
+        mc:Ignorable="d"
+        Title="WindowIP" Height="450" Width="665">
+    <Grid>
+        <TextBox x:Name="textbox" HorizontalAlignment="Center" Margin="0,166,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="422" Height="51" FontSize="18"/>
+        <Button Content="Дальше" HorizontalAlignment="Center" Margin="0,268,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.828,-0.969" Click="Button_Click_1" Height="54" Width="184"/>
+        <Label Content="Введите айпи сервера" HorizontalAlignment="Left" Margin="122,82,0,0" VerticalAlignment="Top" Width="450" FontSize="20"/>
+
+    </Grid>
+</Window>
